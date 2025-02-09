@@ -101,7 +101,7 @@ const LandingPage = () => {
                 transformation.
               </p>
               <div className="font-black text-white text-4xl mt-8 mb-16 font-mono">
-                    <p>Evelynne Bett</p>
+                    <p>Everlyne Bett</p>
                   </div>
               <div className="flex space-x-4">
                 <a
@@ -123,7 +123,7 @@ const LandingPage = () => {
                 alt="Profile"
                 className="relative rounded-full w-96 h-96 object-cover mx-auto shadow-2xl"
               />
-              <div></div>
+             
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ const LandingPage = () => {
                 <h4 className="text-xl font-bold text-white">
                   Core Competencies
                 </h4>
-                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl">
                   <h5 className="font-bold text-white">
                     Customer Service Champion
                   </h5>
@@ -168,7 +168,7 @@ const LandingPage = () => {
                   </ul>
                 </div>
 
-                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl">
                   <h5 className="font-bold text-white">
                     Virtual Assistant Excellence
                   </h5>
@@ -183,11 +183,11 @@ const LandingPage = () => {
             </div>
 
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-white">
+              <h3 className="text-2xl font-bold text-white mb-6">
                 Skills & Expertise
               </h3>
               <div className="space-y-4">
-                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-6">
                   <h4 className="font-bold mb-2 text-white">
                     Banking Operations
                   </h4>
@@ -205,8 +205,8 @@ const LandingPage = () => {
                   </div>
                 </div>
 
-                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
-                  <h4 className="font-bold mb-2 text-white">
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-6">
+                  <h4 className="font-black mb-2 text-white">
                     Queue Management
                   </h4>
                   <div className="space-y-2">
@@ -223,12 +223,12 @@ const LandingPage = () => {
                   </div>
                 </div>
 
-                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-6">
                   <h4 className="font-bold mb-2 text-white">
                     Google Workspace
                   </h4>
                   <div className="space-y-2">
-                    <div className="flex justify-between text-gray-300">
+                    <div className="flex justify-between text-gray/10">
                       <span>Productivity Tools</span>
                       <span>95%</span>
                     </div>
@@ -241,10 +241,10 @@ const LandingPage = () => {
                   </div>
                 </div>
 
-                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
-                  <h4 className="font-bold mb-2 text-white">Leadership</h4>
+                <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-4">
+                  <h4 className="font-bold mb-2 text-gray-800">Leadership</h4>
                   <div className="space-y-2">
-                    <div className="flex justify-between text-gray-300">
+                    <div className="flex justify-between text-gray-800">
                       <span>Team Management</span>
                       <span>85%</span>
                     </div>
@@ -323,7 +323,7 @@ const LandingPage = () => {
 
       <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-6 text-center">
-          <p>© 2025 Evelynne Bett. All rights reserved.</p>
+          <p>© 2025 Everlyne Bett. All rights reserved.</p>
         </div>
       </footer>
     </div>

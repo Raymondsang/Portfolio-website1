@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="relative bg-white/80 backdrop-blur-sm p-8 sm:p-10 rounded-2xl shadow-xl text-center max-w-md w-full mx-4">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Contact Me <br /> <br />
-            Evelynne Bett.
+            Everlyne Bett.
           </h2>
 
           <p className="text-xl font-semibold text-gray-900">
@@ -106,7 +106,7 @@ const Contact = () => {
 
           <footer className="bg-black text-white py-8 mt-20">
             <div className="container mx-auto px-6 text-center">
-              <p>© 2025 Evelynne Bett. All rights reserved.</p>
+              <p>© 2025 Everlyne Bett. All rights reserved.</p>
             </div>
           </footer>
         </div>
