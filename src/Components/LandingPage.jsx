@@ -158,7 +158,7 @@ const LandingPage = () => {
                   <h5 className="font-bold text-white">
                     Customer Service Champion
                   </h5>
-                  <ul className="text-gray-300 mt-2 space-y-2">
+                  <ul className="text-white font-black mt-2 space-y-2">
                     <li>
                       • Enforcement of service standards and best practices
                     </li>
@@ -172,7 +172,7 @@ const LandingPage = () => {
                   <h5 className="font-bold text-white">
                     Virtual Assistant Excellence
                   </h5>
-                  <ul className="text-gray-800 font-black mt-2 space-y-2">
+                  <ul className="text-white font-black mt-2 space-y-2">
                     <li>• Inbox and Calendar Management</li>
                     <li>• Travel Research and Itinerary Planning</li>
                     <li>• Project Management and Data Entry</li>
