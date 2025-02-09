@@ -11,8 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<h1>404 Not Found</h1>} />
+        <Route path="/contact" element={<Contact />} />       
       </Routes>
     </Router>
   );
