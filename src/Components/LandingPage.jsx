@@ -300,7 +300,7 @@ const LandingPage = () => {
               >
                 <Mail className="w-6 h-6" />
                 <span>bett.everlyne@gmail.com</span>
-              </a>
+              </a> <br />
               <a
                 href="tel:+254720155133"
                 className="flex items-center space-x-2 text-black hover:text-pink-500 transition font-black"
