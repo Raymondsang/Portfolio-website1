@@ -36,12 +36,12 @@ const Contact = () => {
         <div className="relative bg-white/80 backdrop-blur-sm p-8 sm:p-10 rounded-2xl shadow-xl text-center max-w-md w-full mx-4">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Contact Me <br /> <br />
-            Everlyne Bett.
+            Everlyn Bett.
           </h2>
 
           <p className="text-xl font-semibold text-gray-900">
             <a
-              href="mailto:bett.everlyne@gmail.com"
+              href="mailto:cbett.everlyn@gmail.com"
               className="hover:text-pink-600 transition duration-300"
             >
               bett.everlyne@gmail.com
@@ -59,7 +59,7 @@ const Contact = () => {
           </p>
 
           <a
-            href="https://calendly.com/raysang98/30min"
+            href="https://calendly.com/cbett-everlyn/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl inline-block mt-10 bg-gradient-to-r from-pink-300 to-white hover:from-white hover:to-pink-300 text-black font-black px-6 py-3 rounded-full shadow-2xl transition-all duration-300"
@@ -79,11 +79,11 @@ const Contact = () => {
               </h2>
               <div className="flex flex-wrap justify-center space-x-8 mb-12">
                 <a
-                  href="mailto:bett.everlyne@gmail.com"
+                  href="cbett.everlyn@gmail.com"
                   className="flex items-center space-x-2 text-black font-black hover:text-pink-500 transition"
                 >
                   <Mail className="w-6 h-6" />
-                  <span>bett.everlyne@gmail.com</span>
+                  <span>cbett.everlyn@gmail.com</span>
                 </a>
                 <a
                   href="tel:+254720155133"
@@ -106,7 +106,7 @@ const Contact = () => {
 
           <footer className="bg-black text-white py-8 mt-20">
             <div className="container mx-auto px-6 text-center">
-              <p>© 2025 Everlyne Bett. All rights reserved.</p>
+              <p>© 2025 Everlyn Bett. All rights reserved.</p>
             </div>
           </footer>
         </div>

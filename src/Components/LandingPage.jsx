@@ -295,11 +295,11 @@ const LandingPage = () => {
             </h2>
             <div className="flex justify-center space-x-8 mb-12">
               <a
-                href="mailto:bett.everlyne@gmail.com"
+                href="mailto:cbett.everlyn@gmail.com"
                 className="flex items-center space-x-2 text-black font-black hover:text-pink-500 transition"
               >
                 <Mail className="w-6 h-6" />
-                <span>bett.everlyn@gmail.com</span>
+                <span>cbett.everlyn@gmail.com</span>
               </a> <br />
               <a
                 href="tel:+254720155133"
