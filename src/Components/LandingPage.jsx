@@ -15,7 +15,7 @@ const LandingPage = () => {
     {
       title: "Customer Service Champion",
       description:
-        "Delivering exceptional banking services with enforced standards and best practices for optimal customer satisfaction",
+        "Delivering exceptional customer services with enforced standards and best practices for optimal customer satisfaction",
       icon: <Users className="w-8 h-8 text-black" />,
     },
     {
@@ -96,16 +96,16 @@ const LandingPage = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-300">
-                Senior Banking Professional with 12+ years of experience in
+                Senior Customer Service Professional with 12+ years of experience in
                 customer service excellence, operations management, and digital
                 transformation.
               </p>
               <div className="font-black text-white text-4xl mt-8 mb-16 font-mono">
-                    <p>Everlyne Bett</p>
+                    <p>Everlyn Bett</p>
                   </div>
               <div className="flex space-x-4">
                 <a
-                  href="https://calendly.com/raysang98/30min"
+                  href="https://calendly.com/cbett-everlyn/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -299,7 +299,7 @@ const LandingPage = () => {
                 className="flex items-center space-x-2 text-black font-black hover:text-pink-500 transition"
               >
                 <Mail className="w-6 h-6" />
-                <span>bett.everlyne@gmail.com</span>
+                <span>bett.everlyn@gmail.com</span>
               </a> <br />
               <a
                 href="tel:+254720155133"
@@ -323,7 +323,7 @@ const LandingPage = () => {
 
       <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-6 text-center">
-          <p>© 2025 Everlyne Bett. All rights reserved.</p>
+          <p>© 2025 Everlyn Bett. All rights reserved.</p>
         </div>
       </footer>
     </div>
