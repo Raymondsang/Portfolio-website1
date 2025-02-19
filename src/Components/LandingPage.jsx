@@ -119,7 +119,7 @@ const LandingPage = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-pink-300/20 to-transparent rounded-full transform -rotate-6"></div>
               <img
-                src="/Images/profile.jpg"
+                src="/public/profile2.png"
                 alt="Profile"
                 className="relative rounded-full w-96 h-96 object-cover mx-auto shadow-2xl"
               />

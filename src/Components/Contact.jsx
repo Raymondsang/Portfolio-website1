@@ -56,7 +56,7 @@ const Contact = () => {
             </a>
           </p>
           <p className="text-lg text-gray-700 mt-4">
-            🕒 <strong>Opening Hours:</strong> 8 AM - 4 PM <br /> Monday -
+            🕒 <strong>Opening Hours:</strong> 8 AM - 5 PM <br /> Monday -
             Saturday
           </p>
 
