@@ -36,26 +36,26 @@ const Contact = () => {
         <div className="relative bg-white/10 backdrop-blur-md p-8 sm:p-10 rounded-2xl shadow-xl text-center max-w-md w-full mx-4 border border-white/20">
           <h2 className="text-3xl font-bold text-white mb-6">
             Contact Me <br /> <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-pink-300 to-blue-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-gray-500 to-gray-400">
               Everlyn Bett
             </span>
           </h2>
 
-          <p className="text-xl font-semibold text-blue-100">
+          <p className="text-xl font-semibold text-gray-700">
             <a
               href="mailto:cbett.everlyn@gmail.com"
-              className="hover:text-pink-300 transition duration-300"
+              className="hover:text-gray-500 transition duration-300"
             >
               cbett.everlyn@gmail.com
             </a>
           </p>
-          <p className="text-xl font-semibold text-blue-100 mt-3">
+          <p className="text-xl font-semibold text-gray-700 mt-3">
             📞{" "}
-            <a href="tel:+254720155133" className="hover:text-pink-300 transition duration-300">
+            <a href="tel:+254720155133" className="hover:text-gray-500 transition duration-300">
               +254 720 155 133
             </a>
           </p>
-          <p className="text-lg text-blue-100 mt-4">
+          <p className="text-lg text-gray-700 mt-4">
             🕒 <strong>Opening Hours:</strong> 8 AM - 4 PM <br /> Monday -
             Saturday
           </p>
@@ -64,7 +64,7 @@ const Contact = () => {
             href="https://calendly.com/cbett-everlyn/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xl inline-block mt-10 bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-white font-bold px-6 py-3 rounded-full shadow-2xl hover:from-pink-500 hover:via-blue-500 hover:to-pink-500 transition-all duration-300"
+            className="text-xl inline-block mt-10 bg-gradient-to-r from-gray-700 via-gray-500 to-gray-400 text-white font-bold px-6 py-3 rounded-full shadow-2xl hover:from-gray-500 hover:via-gray-400 hover:to-gray-300 transition-all duration-300"
           >
             Book a Meeting
           </a>
@@ -76,37 +76,37 @@ const Contact = () => {
         <div className="bg-gradient-to-b from-transparent to-black pt-20">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl font-bold mb-8 text-white">
+              <h2 className="text-4xl font-bold mb-8 text-gray-800">
                 Let's Connect
               </h2>
               <div className="flex flex-wrap justify-center space-x-8 mb-12">
                 <a
                   href="mailto:cbett.everlyn@gmail.com"
-                  className="flex items-center space-x-2 text-blue-100 font-bold hover:text-pink-300 transition"
+                  className="flex items-center space-x-2 text-gray-700 font-bold hover:text-blue-700 transition"
                 >
                   <Mail className="w-6 h-6" />
                   <span>cbett.everlyn@gmail.com</span>
                 </a>
                 <a
                   href="tel:+254720155133"
-                  className="flex items-center space-x-2 text-blue-100 hover:text-pink-300 transition font-bold"
+                  className="flex items-center space-x-2 text-gray-700 hover:text-blue-700 transition font-bold"
                 >
                   <Phone className="w-6 h-6" />
                   <span>+254720155133</span>
                 </a>
               </div>
               <div className="flex justify-center space-x-6">
-                <a href="#" className="text-blue-100 hover:text-pink-300 transition">
+                <a href="#" className="text-gray-700 hover:text-blue-700 transition">
                   <Linkedin className="w-8 h-8" />
                 </a>
-                <a href="#" className="text-blue-100 hover:text-pink-300 transition">
+                <a href="#" className="text-gray-700 hover:text-blue-700 transition">
                   <Twitter className="w-8 h-8" />
                 </a>
               </div>
             </div>
           </div>
 
-          <footer className="bg-black text-white py-8 mt-20">
+          <footer className=" text-white py-8 mt-20">
             <div className="container mx-auto px-6 text-center">
               <p>© 2025 Everlyn Bett. All rights reserved.</p>
             </div>

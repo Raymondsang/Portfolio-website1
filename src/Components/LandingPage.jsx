@@ -119,7 +119,7 @@ const LandingPage = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-pink-300/20 to-transparent rounded-full transform -rotate-6"></div>
               <img
-                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/468067045_10236977053752901_5560525746573126187_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFMJhgYgBJB7xqn23tsxmZDjBpDzc2k6i6MGkPNzaTqLo2FdQBohIcUvCpVPCBrpzhXEYUM94CSnLoJgmnp_NZp&_nc_ohc=Q14Lp5b_OjQQ7kNvgFaKQa2&_nc_oc=AdiJcafIlEJeicL4M1ajb9qO8STCYEZv9nm__SR5baFbs0HFCZcM9VNvEwGdWBZid1E&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=AwzajTcpXaQHKmMH5eAQYW0&oh=00_AYBE7yYWjlO4notg9MGrCuVOOBkyv3GWAC4Wit_9LtMjVg&oe=67AD8A2A"
+                src="/Images/profile.jpg"
                 alt="Profile"
                 className="relative rounded-full w-96 h-96 object-cover mx-auto shadow-2xl"
               />
@@ -265,13 +265,13 @@ const LandingPage = () => {
       {/* Services Section */}
       <section id="services" className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16">Services</h2>
+          <h2 className="text-4xl text-gray-700 font-bold text-center mb-16">Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
                 className="bg-white/80 backdrop-blur-sm p-8 rounded-xl shadow-lg 
-                     hover:bg-pink-50 hover:transform hover:-translate-y-2 
+                     hover:bg-blue-50 hover:transform hover:-translate-y-2 
                      transition duration-300"
               >
                 <div className="mb-6 text-blue-400">{service.icon}</div>
@@ -286,7 +286,7 @@ const LandingPage = () => {
       {/* Contact Section */}
       <section
         id="contact"
-        className="py-20 bg-gradient-to-b from-blue-100 to-white"
+        className="py-20 bg-gradient-to-b from-white to-blue-100"
       >
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
@@ -321,7 +321,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <footer className="bg-blue text-gray-700 text-xl font-black py-8">
+      <footer className="bg-blue-100 text-gray-800 text-xl font-black py-8">
         <div className="container mx-auto px-6 text-center">
           <p>© 2025 Everlyn Bett. All rights reserved.</p>
         </div>
