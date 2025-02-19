@@ -21,7 +21,7 @@ const LandingPage = () => {
     {
       title: "Virtual Assistant",
       description:
-        "Comprehensive support including inbox management, calendar organization, and travel planning",
+        "Comprehensive customer service support including inbox management, calendar organization, and travel planning",
       icon: <Layout className="w-8 h-8 text-black" />,
     },
     {
@@ -45,7 +45,7 @@ const LandingPage = () => {
     {
       title: "Innovation Champion",
       description:
-        "Driving operational excellence and digital transformation in banking services",
+        "Driving operational excellence and digital transformation in DIY.",
       icon: <PenTool className="w-8 h-8 text-black" />,
     },
   ];
@@ -170,7 +170,7 @@ const LandingPage = () => {
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl">
                   <h5 className="font-bold text-gray-700">
-                    Virtual Assistant Excellence
+                    Virtual Assistant Executive
                   </h5>
                   <ul className="text-gray-600 font-black mt-2 space-y-2">
                     <li>• Inbox and Calendar Management</li>
