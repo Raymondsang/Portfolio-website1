@@ -56,27 +56,27 @@ const LandingPage = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: "url('/Images/Wallpaper.jpg')",
+            backgroundImage: "url('/Images/Wallpaper2.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
 
         {/* Navigation */}
-        <nav className="absolute w-full top-0 z-50 bg-black/10 ">
+        <nav className="absolute w-full top-0 z-50 bg-blue/10 ">
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
               <div className="flex space-x-6">
                 <a
                   href="/"
-                  className="text-white hover:text-pink-300 transition font-bold px-4 py-2"
+                  className="text-gray-700 hover:text-blue-500 transition font-bold px-4 py-2"
                 >
                   Home
                 </a>
 
                 <a
                   href="/Contact"
-                  className="text-white hover:text-pink-300 transition font-bold px-4 py-2"
+                  className="text-gray-700 hover:text-blue-500 transition font-bold px-4 py-2"
                 >
                   Contact Me
                 </a>
@@ -89,18 +89,18 @@ const LandingPage = () => {
         <div className="relative z-10 container mx-auto px-6 pt-32 pb-20 min-h-screen flex items-center">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <h1 className="text-6xl font-black leading-tight text-white">
+              <h1 className="text-6xl font-black leading-tight text-blue-400">
                 UI/UX Design & Customer Service
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-white">
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-white">
                   Excellence
                 </span>
               </h1>
-              <p className="text-xl text-gray-300">
+              <p className="text-xl text-black">
                 Senior Customer Service Professional with 12+ years of experience in
                 customer service excellence, operations management, and digital
                 transformation.
               </p>
-              <div className="font-black text-white text-4xl mt-8 mb-16 font-mono">
+              <div className="font-black text-blue-400 text-4xl mt-8 mb-16 font-mono">
                     <p>Everlyn Bett</p>
                   </div>
               <div className="flex space-x-4">
@@ -110,7 +110,7 @@ const LandingPage = () => {
                   rel="noopener noreferrer"
                 >
                   
-                  <button className="bg-gradient-to-r from-pink-300 to-white text-black px-8 py-3 rounded-full">
+                  <button className="bg-gradient-to-r from-blue-400 to-white text-black px-8 py-3 rounded-full">
                     Hire Me
                   </button>
                 </a>
@@ -132,7 +132,7 @@ const LandingPage = () => {
       {/* About Section */}
       <section
         id="about"
-        className="py-20 bg-gradient-to-b from-black via-gray-900 to-pink-50"
+        className="py-20 bg-gradient-to-b from-blue-300 via-blue-200 to-white"
       >
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16 text-white">
@@ -140,10 +140,10 @@ const LandingPage = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-white">
+              <h3 className="text-2xl font-bold mb-4 text-gray-700">
                 Professional Background
               </h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-gray-700 mb-6">
                 Accomplished bank custodian, senior teller and customer-centric
                 service desk officer with 12+ years of experience in the banking
                 industry. Proficient at improving customer satisfaction and
@@ -151,14 +151,14 @@ const LandingPage = () => {
                 interpersonal, and problem-solving skills.
               </p>
               <div className="space-y-4">
-                <h4 className="text-xl font-bold text-white">
+                <h4 className="text-xl font-bold text-gray-700">
                   Core Competencies
                 </h4>
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl">
-                  <h5 className="font-bold text-white">
+                  <h5 className="font-bold text-gray-700">
                     Customer Service Champion
                   </h5>
-                  <ul className="text-white font-black mt-2 space-y-2">
+                  <ul className="text-gray-600 font-black mt-2 space-y-2">
                     <li>
                       • Enforcement of service standards and best practices
                     </li>
@@ -169,10 +169,10 @@ const LandingPage = () => {
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl">
-                  <h5 className="font-bold text-white">
+                  <h5 className="font-bold text-gray-700">
                     Virtual Assistant Excellence
                   </h5>
-                  <ul className="text-white font-black mt-2 space-y-2">
+                  <ul className="text-gray-600 font-black mt-2 space-y-2">
                     <li>• Inbox and Calendar Management</li>
                     <li>• Travel Research and Itinerary Planning</li>
                     <li>• Project Management and Data Entry</li>
@@ -183,22 +183,22 @@ const LandingPage = () => {
             </div>
 
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-white mb-6">
+              <h3 className="text-2xl font-bold text-gray-700 mb-6">
                 Skills & Expertise
               </h3>
               <div className="space-y-4">
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-6">
-                  <h4 className="font-bold mb-2 text-white">
+                  <h4 className="font-bold mb-2 text-gray-700">
                     Banking Operations
                   </h4>
                   <div className="space-y-2">
-                    <div className="flex justify-between text-gray-300">
+                    <div className="flex justify-between text-gray-600">
                       <span>Customer Service</span>
                       <span>95%</span>
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
                       <div
-                        className="bg-pink-500 h-2 rounded-full"
+                        className="bg-blue-400 h-2 rounded-full"
                         style={{ width: "95%" }}
                       ></div>
                     </div>
@@ -206,17 +206,17 @@ const LandingPage = () => {
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-6">
-                  <h4 className="font-black mb-2 text-white">
+                  <h4 className="font-black mb-2 text-gray-700">
                     Queue Management
                   </h4>
                   <div className="space-y-2">
-                    <div className="flex justify-between text-gray-300">
+                    <div className="flex justify-between text-gray-600">
                       <span>Digital Channel Migration</span>
                       <span>90%</span>
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
                       <div
-                        className="bg-pink-500 h-2 rounded-full"
+                        className="bg-blue-400 h-2 rounded-full"
                         style={{ width: "90%" }}
                       ></div>
                     </div>
@@ -224,7 +224,7 @@ const LandingPage = () => {
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl mb-6">
-                  <h4 className="font-bold mb-2 text-white">
+                  <h4 className="font-bold mb-2 text-gray-700">
                     Google Workspace
                   </h4>
                   <div className="space-y-2">
@@ -234,7 +234,7 @@ const LandingPage = () => {
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
                       <div
-                        className="bg-pink-500 h-2 rounded-full"
+                        className="bg-blue-400 h-2 rounded-full"
                         style={{ width: "95%" }}
                       ></div>
                     </div>
@@ -250,7 +250,7 @@ const LandingPage = () => {
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
                       <div
-                        className="bg-pink-500 h-2 rounded-full"
+                        className="bg-blue-400 h-2 rounded-full"
                         style={{ width: "85%" }}
                       ></div>
                     </div>
@@ -263,7 +263,7 @@ const LandingPage = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-pink-100">
+      <section id="services" className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16">Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -274,7 +274,7 @@ const LandingPage = () => {
                      hover:bg-pink-50 hover:transform hover:-translate-y-2 
                      transition duration-300"
               >
-                <div className="mb-6 text-pink-500">{service.icon}</div>
+                <div className="mb-6 text-blue-400">{service.icon}</div>
                 <h3 className="text-xl font-bold mb-4">{service.title}</h3>
                 <p className="text-gray-700">{service.description}</p>
               </div>
@@ -286,7 +286,7 @@ const LandingPage = () => {
       {/* Contact Section */}
       <section
         id="contact"
-        className="py-20 bg-gradient-to-b from-pink-50 to-black"
+        className="py-20 bg-gradient-to-b from-blue-100 to-white"
       >
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
@@ -296,24 +296,24 @@ const LandingPage = () => {
             <div className="flex justify-center space-x-8 mb-12">
               <a
                 href="mailto:cbett.everlyn@gmail.com"
-                className="flex items-center space-x-2 text-black font-black hover:text-pink-500 transition"
+                className="flex items-center space-x-2 text-black font-black hover:text-blue-500 transition"
               >
                 <Mail className="w-6 h-6" />
                 <span>cbett.everlyn@gmail.com</span>
               </a> <br />
               <a
                 href="tel:+254720155133"
-                className="flex items-center space-x-2 text-black hover:text-pink-500 transition font-black"
+                className="flex items-center space-x-2 text-black hover:text-blue-500 transition font-black"
               >
                 <Phone className="w-6 h-6" />
                 <span>+254720155133</span>
               </a>
             </div>
             <div className="flex justify-center space-x-6">
-              <a href="#" className="text-black hover:text-pink-500 transition">
+              <a href="#" className="text-black hover:text-blue-500 transition">
                 <Linkedin className="w-8 h-8" />
               </a>
-              <a href="#" className="text-black hover:text-pink-500 transition">
+              <a href="#" className="text-black hover:text-blue-500 transition">
                 <Twitter className="w-8 h-8" />
               </a>
             </div>
@@ -321,7 +321,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <footer className="bg-black text-white py-8">
+      <footer className="bg-blue text-gray-700 text-xl font-black py-8">
         <div className="container mx-auto px-6 text-center">
           <p>© 2025 Everlyn Bett. All rights reserved.</p>
         </div>
